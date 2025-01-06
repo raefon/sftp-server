@@ -13,7 +13,7 @@ import (
 	"github.com/pkg/sftp"
 	"golang.org/x/crypto/ssh"
 
-	"github.com/kubectyl/sftp-server/config"
+	"github.com/raefon/sftp-server/config"
 )
 
 const (

@@ -12,9 +12,9 @@ import (
 	"github.com/apex/log/handlers/cli"
 	"github.com/apex/log/handlers/multi"
 	"github.com/apex/log/handlers/text"
-	"github.com/kubectyl/kuber/remote"
-	"github.com/kubectyl/sftp-server/config"
-	"github.com/kubectyl/sftp-server/sftp"
+	"github.com/raefon/kuber/remote"
+	"github.com/raefon/sftp-server/config"
+	"github.com/raefon/sftp-server/sftp"
 )
 
 // Configures the global logger for Zap so that we can call it from any location

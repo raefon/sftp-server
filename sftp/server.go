@@ -19,8 +19,8 @@ import (
 	"golang.org/x/crypto/ed25519"
 	"golang.org/x/crypto/ssh"
 
-	"github.com/kubectyl/kuber/remote"
-	"github.com/kubectyl/sftp-server/config"
+	"github.com/raefon/kuber/remote"
+	"github.com/raefon/sftp-server/config"
 )
 
 // Usernames all follow the same format, so don't even bother hitting the API if the username is not
