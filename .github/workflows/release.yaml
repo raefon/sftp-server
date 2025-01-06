@@ -24,9 +24,9 @@ jobs:
           CGO_ENABLED: 0
           REF: ${{ github.ref }}
         run: |
-          GOARCH=amd64 go build -o dist/sftp-server-linux-amd64 -v -trimpath github.com/kubectyl/sftp-server
+          GOARCH=amd64 go build -o dist/sftp-server-linux-amd64 -v -trimpath github.com/raefon/sftp-server
           chmod 755 dist/sftp-server-linux-amd64
-          GOARCH=arm64 go build -o dist/sftp-server-linux-arm64 -v -trimpath github.com/kubectyl/sftp-server
+          GOARCH=arm64 go build -o dist/sftp-server-linux-arm64 -v -trimpath github.com/raefon/sftp-server
           chmod 755 dist/sftp-server-linux-arm64
 
       - name: Extract changelog
