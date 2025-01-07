@@ -6,7 +6,7 @@ require (
 	emperror.dev/errors v0.8.1
 	github.com/NYTimes/logrotate v1.0.0
 	github.com/apex/log v1.9.0
-	github.com/raefon/kuber v0.0.0-20221218191748-e7e5c2f989ef
+	github.com/kubectyl/kuber v0.0.0-20221218191748-e7e5c2f989ef
 	github.com/pkg/sftp v1.13.5
 	golang.org/x/crypto v0.5.0
 	gopkg.in/yaml.v2 v2.4.0
