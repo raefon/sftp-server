@@ -43,7 +43,7 @@ type RemoteQueryConfiguration struct {
 
 type SystemConfiguration struct {
 	// Directory where logs for server installations and other wings events are logged.
-	LogDirectory string `default:"/var/log/kubectyl" yaml:"log_directory"`
+	LogDirectory string `default:"/tmp/kubectyl" yaml:"log_directory"`
 
 	// Directory where the server data is stored at.
 	Data string `default:"/home" yaml:"data"`
